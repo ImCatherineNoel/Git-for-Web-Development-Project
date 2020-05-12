@@ -129,7 +129,7 @@ If by file you mean directory... that all depends on your OS and what CLI you ar
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    For HTML: Block elements normally surround a section of content, like <p> and <dic>, inline elements are withing the block tags like <a> and <b>
+    Block elements normally surround a section of content, like <p> and <div>, they start on a new line on the page and are able to have height and width adjusted. Inline elements are within the block tags like <a> and <b> they take up only the space of the element and do not start on a new line.
 
     2. What happens when an element is positioned absolutely? 
       It is removed from the css flow and placed in a default position 
@@ -139,11 +139,12 @@ Stretch Questions
 
     4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display 
     inline-block by default
-      block:<p>, <b>
-      inline elements: <a>
+      block:<p>, <div>, <header>
+      inline elements: <a>, <b>
+      inline-block:  <img>
 
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-            Box model is a way of laying out a web page where all the content is layed out in boxed within boxes.The fix is flexboxes?
+            Box model is a way of laying out a web page where all the content is layed out in boxes within boxes. It has a 4 part pattern that includes a Margin, Border, Padding, and Content. You can use box-sizing: border-box; to force a bod to the size of the border.
 
 
    --> 
